@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/kondo-yuuki/.nodebrew/node/v8.9.4/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/kondo-yuuki/.sdkman/candidates/maven/current/bin:/Users/kondo-yuuki/.sdkman/candidates/java/current/bin:/Users/kondo-yuuki/.nodebrew/current/bin:/Users/kondo-yuuki/.avn/bin:/Users/kondo-yuuki/.rbenv/shims:/Users/kondo-yuuki/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/kondo-yuuki/workspace/auo/package.json: Unexpected token } in JSON at position 421
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "auo",
+    "version": "0.0.1",
+    "description": "api unequivocal organizer",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "api",
+      "e2e",
+      "test"
+    ],
+    "author": "KONDO-Yuuki",
+    "license": "MIT",
+    "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.2"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
