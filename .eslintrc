@@ -1,0 +1,21 @@
+// .eslintrc
+{
+  "parser": "babel-eslint",
+  "plugins": ["flowtype"],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended"
+  ]
+}
