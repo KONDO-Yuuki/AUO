@@ -1,9 +1,9 @@
 // @flow
 import express, { type $Request, type $Response } from 'express';
 
-import type { Snapshot } from './type';
+import type { Snapshot } from 'auo-interfaces';
 
-export default class EnkidoServer {
+export default class EnkiduServer {
   snapshots: Snapshot[];
   app: express$Application;
   constructor(snapshots: Snapshot[]) {

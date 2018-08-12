@@ -2,7 +2,7 @@
 
 import fs from 'fs';
 
-import type { AUOparams, Snapshot } from './type';
+import type { AUOparams, Snapshot } from 'auo-interfaces';
 
 export default class AUO {
   snapshots: Snapshot[];
@@ -13,7 +13,7 @@ export default class AUO {
     this.snapshots.push(snapshot);
   }
 
-  generateCollectionJson(filePath: string = './AUOcollection.json') {
+  generateCollectionJson(filePath: string = './auo-collection.json') {
     const data = JSON.stringify(this.snapshots);
     fs.writeFileSync(filePath, data);
   }

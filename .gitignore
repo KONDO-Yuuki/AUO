@@ -1,2 +1,7 @@
 bin
+/packages/auo-core/dist/*
+!/packages/auo-core/dist/index.js.flow
+/packages/auo-mock-server/dist/*
+!/packages/auo-mock-server/dist/index.js.flow
+*.log
 node_modules

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test hoge 1`] = `
+Object {
+  "hoge": "hoge",
+}
+`;
+
+exports[`test root 1`] = `
+Object {
+  "hoge": "root",
+}
+`;

@@ -1,1 +1,0 @@
-[{"req":{"path":"/","method":"GET"},"res":{"body":{"hoge":"root"},"status":200}},{"req":{"path":"/hoge","method":"GET"},"res":{"body":{"hoge":"hoge"},"status":200}}]

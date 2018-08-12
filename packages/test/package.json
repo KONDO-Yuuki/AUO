@@ -1,0 +1,21 @@
+{
+  "name": "auo-test-project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBands"
+  },
+  "author": "KONDO-Yuuki",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-fetch": "^1.2.0"
+  },
+  "devDependencies": {
+    "auo-interfaces": "*",
+    "auo-core": "*",
+    "auo-mock-server": "*"
+  }
+}
