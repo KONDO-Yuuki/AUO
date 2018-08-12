@@ -10,6 +10,6 @@
   "author": "KONDO-Yuuki",
   "license": "MIT",
   "devDependencies": {
-    "auo-interfaces": "*"
+    "auo-interfaces": "^0.0.1"
   }
 }

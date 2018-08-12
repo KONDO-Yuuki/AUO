@@ -13,6 +13,6 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
-    "auo-interfaces": "*"
+    "auo-interfaces": "^0.0.1"
   }
 }

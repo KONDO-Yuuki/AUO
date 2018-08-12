@@ -14,8 +14,8 @@
     "node-fetch": "^1.2.0"
   },
   "devDependencies": {
-    "auo-interfaces": "*",
-    "auo-core": "*",
-    "auo-mock-server": "*"
+    "auo-core": "^0.0.1",
+    "auo-interfaces": "^0.0.1",
+    "auo-mock-server": "^0.0.1"
   }
 }
