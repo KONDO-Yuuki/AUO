@@ -1,6 +1,6 @@
 {
   "name": "auo-test-project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -14,8 +14,8 @@
     "node-fetch": "^1.2.0"
   },
   "devDependencies": {
-    "auo-core": "^0.0.1",
-    "auo-interfaces": "^0.0.1",
-    "auo-mock-server": "^0.0.1"
+    "auo-core": "^0.0.2",
+    "auo-interfaces": "^0.0.2",
+    "auo-mock-server": "^0.0.2"
   }
 }
