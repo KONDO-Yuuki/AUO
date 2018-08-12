@@ -1,7 +1,7 @@
 {
   "name": "auo-core",
   "version": "0.0.1",
-  "description": "",
+  "description": "core of auo project",
   "main": "dist/index.js",
   "scripts": {
     "build": "../../node_modules/.bin/babel src -d dist --source-maps inline",
